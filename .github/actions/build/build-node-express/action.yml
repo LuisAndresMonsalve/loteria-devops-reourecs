@@ -3,14 +3,14 @@ description: 'Mi primera accion'
 author: 'Luis Monsalve'
 
 inputs:
-  - comentario: 
-      descripcion: 'Comentario que se mostrara por consola'
-      required: false
-      default: 'Hola Mundo'
-  - version: 
-      descripcion: 'version nodejs'
-      required: true
-      default: 18.x
+  comentario: 
+    descripcion: 'Comentario que se mostrara por consola'
+    required: false
+    default: 'Hola Mundo'
+  version: 
+    descripcion: 'version nodejs'
+    required: true
+    default: 18.x
   
 
 runs:
